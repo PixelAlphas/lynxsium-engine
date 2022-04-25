@@ -1,9 +1,9 @@
-// Imports Minecraft's library.
+// Imports Minecraft's / Configs library.
 import { world } from "mojang-minecraft";
+import { prefix } from "./config.js";
 
-// prefix's for admin/member commands.
-var prefixmember = "!"
-var prefixadmin = "-"
+// Imports core's library.
+import { customcommand } from "./system/commandhandler.js";
 
 world.events.beforeChat.subscribe(eventData => {
   // Won't send any chat messages but continues to functionn
@@ -13,9 +13,12 @@ world.events.beforeChat.subscribe(eventData => {
   const player = eventData.sender;
   const message = eventData.message;
 
-  // detects if both prefix did not work.
-  if (!message.startsWith(prefixmember) && !message.startsWith(prefixadmin))
-  return console.warn("commands ran.")
+  // detects if both prefix wasn't choosen work
+  if (!message.startsWith(prefix))
+  return console.warn("chat inputed here.");
   
-  console.warn('chat inputed.')
+  customcommand(message, player, eventData);
+  
+  // prints if chat inputed
+  console.warn('commands ran.');
 });
