@@ -9,7 +9,7 @@ Still on under developments
 ## Terms of usage
 The engine is completely free and open-source, but there's strictly rules for contributing!
 
-- You may NOT in absolute way to claim 'Lynxsium' as your own and monetize it! since this project is completely free and intended as i won't make any money from it, please don't monetize nor claim that was yours!
+- You may NOT in absolute way to claim 'LynxAether' as your own and monetize it! since this project is completely free and intended as i won't make any money from it, please don't monetize nor claim that was yours!
 - I ask you if you able to credit by not deleting nor erasing any code that for crediting!
 - the project is GNU licensed, you must comply and keep redistribution safe!
 - thermonuclear war, or you getting fired because the alarm app failed.
