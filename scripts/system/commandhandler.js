@@ -1,6 +1,6 @@
 // imports config for prefix.
-import { prefix } from "../config.js"
-
+import { prefix } from "../config.js";
+import { LynxMenu } from "../ui/user.js";
 // export and consts custom commands as functions.
 // using switch as for optimizations.
 
