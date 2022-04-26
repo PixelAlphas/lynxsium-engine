@@ -18,13 +18,17 @@ import { prefix } from "../config.js"
 export const customcommand = function (message, player, eventData) {
   let command = message.trim().slice(prefix.length).split(/ +/)[0].toLowerCase(); 
   switch (command) {
-    case 'hello':{
+    case 'hello': {
       console.warn("hello commands ran");
       break;
     }
-    case "helloadmin":{
+    case "helloadmin": {
       if (!player.hasTag("admin")) return console.warn("hello admin ran but no permissions.");
       console.warn("hello admin ran :D");
+      break;
+    }
+    case 'gui': {
+      LynxMenu(player);
       break;
     }
     default:{
