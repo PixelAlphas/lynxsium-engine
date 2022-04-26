@@ -14,4 +14,13 @@ The engine is completely free and open-source, but there's strictly rules for co
 - the project is GNU licensed, you must comply and keep redistribution safe!
 - thermonuclear war, or you getting fired because the alarm app failed.
 
+## Incoming Features
+I have absolutely no idea yet which features to add in. but here on this list that i might actually add it!
+
+- Gametest UI
+- Ping commands
+- Custom Chat with prefix
+- Tpa
+- Kits stuff
+
 > HarlowAether, パス !
